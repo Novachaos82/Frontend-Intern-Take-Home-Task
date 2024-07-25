@@ -607,6 +607,10 @@ video {
   margin-top: 1rem;
 }
 
+.mb-10 {
+  margin-bottom: 2.5rem;
+}
+
 .block {
   display: block;
 }
@@ -1212,6 +1216,10 @@ video {
 
   .lg\:leading-\[2\.75rem\] {
     line-height: 2.75rem;
+  }
+
+  .lg\:leading-7 {
+    line-height: 1.75rem;
   }
 }
 
