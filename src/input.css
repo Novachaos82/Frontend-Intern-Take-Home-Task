@@ -23,25 +23,8 @@
   font-style: normal;
 }
 
-.carousel-container {
-  position: relative;
-  overflow: hidden;
-  width: 100%;
-}
 
-.active-thumbnail {
-  border: 2px solid white;
-}
 
-.carousel-slide {
-  display: flex;
-  transition: transform 0.5s ease-in-out;
-}
-
-.carousel-image {
-  /* min-width: 100%; */
-  height: auto;
-}
 /* tab - group */
 .active-tab{
   background:  #3c422e;
@@ -87,5 +70,5 @@
 
 
 .thumbnail-active {
-  border: 2px solid white;
+  border: 1px solid white;
 }
