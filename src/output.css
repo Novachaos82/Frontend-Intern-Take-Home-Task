@@ -1001,6 +1001,14 @@ video {
   line-height: 1;
 }
 
+.leading-10 {
+  line-height: 2.5rem;
+}
+
+.leading-7 {
+  line-height: 1.75rem;
+}
+
 .text-\[\#3c422e\] {
   --tw-text-opacity: 1;
   color: rgb(60 66 46 / var(--tw-text-opacity));
@@ -1192,6 +1200,14 @@ video {
 
   .lg\:text-\[3\.5rem\] {
     font-size: 3.5rem;
+  }
+
+  .lg\:text-\[18px\] {
+    font-size: 18px;
+  }
+
+  .lg\:text-\[20px\] {
+    font-size: 20px;
   }
 
   .lg\:leading-\[2\.75rem\] {
