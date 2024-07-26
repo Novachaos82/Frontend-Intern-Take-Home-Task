@@ -111,8 +111,9 @@ subscriptionButtons.forEach((button) => {
     if (isSubscribed) {
       addToCartPrice.textContent = "Subscribe";
     } else{
-      updatePrices(selectedIndex);
+  
       addToCartPrice.textContent = "Add to cart - $37";
+      updatePrices(selectedIndex)
     }
 
     const discounts = isSubscribed ? setDiscountsSubscribed : setDiscounts;
